@@ -8,7 +8,7 @@
 ### Usage of this repo
 
 1. First **preprocess the data** for the training with running
-   ```python utils/preprocess_training_data.py```. This will create a file needed for the training under 
+   ```python src/preprocess_training_data.py```. This will create a file needed for the training under 
    `resources/data/train_val_btaches.npz`. You can skip this step by downloading the preprocessed data from 
    [here](https://drive.google.com/file/d/1NxK0qCNYdVDi0bRVf5gstusjMnW1VZ6o/view?usp=sharing).
 2. Second **train the model** with ```python main.py```
